@@ -51,8 +51,49 @@ bool GonzaloVila(char * cadena, size_t espacio) {
         .apellidos = "Vila",
         .nombres = "Gonzalo Manuel",
         .documento = "31.061.045",
+     };
+    
+    return SerializarAlumno(cadena, espacio, &alumno);
+} 
+
+bool MartinJuarez(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "JUAREZ",
+        .nombres = "Martin Gustavo",
+        .documento = "28.223.959",
+     };
+    
+    return SerializarAlumno(cadena, espacio, &alumno);
+}       
+
+bool LautaroVera(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "VERA",
+        .nombres = "Lautaro Juan Bautista",
+        .documento = "37.585.785",
+        };
+    
+    return SerializarAlumno(cadena, espacio, &alumno);
+}
+
+bool EstebanVolentini(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "VOLENTINI",
+        .nombres = "Esteban Daniel",
+        .documento = "23.517.968",
+    };
+    
+    return SerializarAlumno(cadena, espacio, &alumno);
+}
+
+bool MarianoFinochietto(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "FINOCHIETTO",
+        .nombres = "Jose Mariano",
+        .documento = "34.851.197",
     };
 
     return SerializarAlumno(cadena, espacio, &alumno);
 }
+
 /*=====[Implementations of private functions]================================*/

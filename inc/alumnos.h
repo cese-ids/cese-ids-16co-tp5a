@@ -65,6 +65,8 @@ bool EmilianoRodriguez(char * cadena, size_t espacio);
 
 bool EzequielAcerbo(char * cadena, size_t espacio);
 
+bool FedericoFarfan(char * cadena, size_t espacio);
+
 /*=====[Prototypes (declarations) of public interrupt functions]=============*/
 
 /*=====[C++ - end]===========================================================*/

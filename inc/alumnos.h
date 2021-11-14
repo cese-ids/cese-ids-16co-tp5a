@@ -43,6 +43,8 @@ bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno);
 
 bool EmilianoRodriguez(char * cadena, size_t espacio);
 
+bool GuillermoCastiglioni(char * cadena, size_t espacio);
+
 /*=====[Prototypes (declarations) of public interrupt functions]=============*/
 
 /*=====[C++ - end]===========================================================*/

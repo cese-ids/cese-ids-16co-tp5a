@@ -41,6 +41,8 @@ typedef struct alumno_s {
 
 bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno);
 
+bool LuisDavidDiazCharris(char * cadena, size_t espacio);
+
 bool LuisStoraccio(char * cadena, size_t espacio);
 
 bool RicardoAlvarez(char * cadena, size_t espacio);

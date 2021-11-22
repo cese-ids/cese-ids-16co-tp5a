@@ -85,17 +85,18 @@ int main(int argc, char *argv[]) {
         printf("No se pudo serializar el alumno\r\n");
     }
     
-<<<<<<< HEAD
     if (GuillermoCastiglioni(cadena, sizeof(cadena))) {
-=======
-        if (JorgeGabrielSchmidt(cadena, sizeof(cadena))) {
->>>>>>> d7be708239b181d64e1cabd717cdd03597d664d0
+        printf("Alumno: %s\r\n", cadena);
+    } else {
+        printf("No se pudo serializar el alumno\r\n");
+    }
+    
+    if (JorgeGabrielSchmidt(cadena, sizeof(cadena))) {
         printf("Alumno: %s\r\n", cadena);
     } else {
         printf("No se pudo serializar el alumno\r\n");
     }
 
-<<<<<<< HEAD
     if (MarianoFinochietto(cadena, sizeof(cadena))) {
         printf("Alumno: %s\r\n", cadena);
     } else {
@@ -120,7 +121,5 @@ int main(int argc, char *argv[]) {
         printf("No se pudo serializar el alumno\r\n");
     }
      
-=======
->>>>>>> d7be708239b181d64e1cabd717cdd03597d664d0
     return 0;
 }
